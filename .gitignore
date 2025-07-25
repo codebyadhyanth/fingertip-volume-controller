@@ -1,0 +1,36 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution and packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Logs and temp files
+*.log
+*.tmp
+temp/
+
+# Virtual environments
+.venv
+venv/
+ENV/
+env/
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Project-specific: Computer vision artifacts
+captures/
+output/
+*.mp4
+*.avi
