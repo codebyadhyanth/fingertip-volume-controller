@@ -39,7 +39,7 @@ while True:
     cx, cy = None, None
 
     # Run MediaPipe only every 3rd frame
-    if frame_count % 3 == 0:
+    if frame_count % 2 == 0:
         small_frame = cv2.resize(frame, (320, 240))
         rgb_small = cv2.cvtColor(small_frame, cv2.COLOR_BGR2RGB)
         result = hands.process(rgb_small)
